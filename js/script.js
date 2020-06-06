@@ -1,5 +1,11 @@
-let name = prompt("What is your name?");
-let age = prompt("What is your age?");
-let colour = prompt("What is your favourite colour?");
+let cars = ["Bugatti", "Lamborghini", "Ferrari", "Benz", "McLaren"];
+document.getElementById("demo").innerHTML = cars[1];
 
-alert("Hello, " + name + "!" + " If you are " + age + " years old then you're old and your favourite colour " + colour + " is my favourite." );
+let vehicle = { 
+  category: "Sports car",
+  name: "Bugatti",
+  brand: "Chiron",
+  colour: "Yellow",
+  hp: 1500,
+};
+document.getElementById("mode").innerHTML = vehicle.name + " " + vehicle.brand
